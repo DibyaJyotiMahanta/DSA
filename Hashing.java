@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 class Map {
-
+//precomputation
     int[] map(int[] arr, int[] mapped_arr) {
         for (int i = 0; i < arr.length; i++) {
             int element = arr[i];
@@ -33,6 +33,7 @@ public class Hashing {
 
             switch (choice) {
                 case 1 -> {
+                    //fetching
                     System.out.println("Enter num");
                     int num = sc.nextInt();
                     int ocurance = hashset[num];
@@ -53,8 +54,10 @@ public class Hashing {
                     break;
                 }
             }
+            sc.close();
 
         }
+        
 
     }
 }
