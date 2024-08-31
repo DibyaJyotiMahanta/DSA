@@ -24,7 +24,6 @@ public class StringHashing {
         while (b != true) {
 
             System.out.println("Check the occurance for any small alphbates from a to z.");
-            // Scanner sc = new Scanner(System.in);
 
             System.out.println("Enter your choice: \nPress 1: to enter a alphabate and check it's occurance \nPress 2: to exit \nPress 3 to reload");
 
